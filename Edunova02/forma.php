@@ -12,19 +12,29 @@
   
           <form>
             <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input name="broj1" type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
+
               <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input name="broj2" type="text" placeholder="large-4.cell" />
+                <label>Prvi broj</label>
+                <input name="broj1" type="text" placeholder="Ovdje upiši prvi broj" />
+              </div>
+
+            </div>
+
+            <div class="grid-x grid-padding-x">
+
+              <div class="large-4 medium-4 cell">
+
+                <label>Drugi broj</label>
+                <input name="broj2" type="text" placeholder="Ovdje upiši drugi broj" />
+
+
               </div>
               <div class="large-4 medium-4 cell">
                
               </div>
+
+
+              
               <div class="large-4 medium-4 cell">
                 <div class="grid-x">
                   <input type="submit" class="button" value="Odradi" />
@@ -40,7 +50,7 @@
       
       $rez = $_GET["broj1"] + $_GET["broj2"];
 
-      echo $rez;
+      echo (" Rezultat je   ").$rez;
 
       
       ?>

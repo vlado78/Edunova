@@ -7,11 +7,12 @@
   </head>
   <body>
           <form action="rezultat.php" method="post">
-                <label for="b1">Input Label</label>
-                <input id="b1" name="broj1" type="text"  />
+                <label >Input Label</label>
+                      <input  name="broj1" type="text"  />
+                </label>
 
                 <label>Input label
-                    <input name="broj2" type="text" />
+                        <input name="broj2" type="text" />
                 </label>
                
                
@@ -19,11 +20,6 @@
                
           </form>
       
-      <?php //print_r($_GET); 
       
-      $rez = $_GET["broj1"] + $_GET["broj2"];
-
-      echo $rez;
-      ?>
   </body>
 </html>
